@@ -10,8 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="#172933"
-    tools:context="com.example.taha.philipsstudygrouphelper.MainActivity">
-
+    tools:context=".MainActivity">
 
     <TextView
         android:text=""
@@ -79,6 +78,5 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:id="@+id/textView3" />
-
 
 </RelativeLayout>

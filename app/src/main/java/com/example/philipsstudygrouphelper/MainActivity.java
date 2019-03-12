@@ -1,4 +1,4 @@
-package com.example.taha.philipsstudygrouphelper;
+package com.example.philipsstudygrouphelper;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -14,9 +14,9 @@ public class MainActivity extends AppCompatActivity {
     private TextView at;
     private ImageView Philips;
 
-    private String[] wordList1 = {"24/7", "multi-Tier", "30,00 foot", "B-to-B", "win-win", "front-end", "web-based", "pervasive", "smart", "six-sigma", "critical-path", "dynamic" };
-    private String[] wordList2 = {"empowered", "sticky", "value-added", "oriented", "centric", "distributed", "clustered", "branded", "outside-the-box", "positive", "networked", "focused", "below the line", "leveraged", "aligned", "targeted", "shared", "cooperative", "accelerated" };
-    private String[] wordList3 = {"process", "tipping-point", "solution", "architecture", "core competency", "strategy", "mind-share", "portal", "space", "vision", "paradigm", "mission" };
+    private String[] wordList1 = {"24/7", "multi-Tier", "30,00 foot", "B-to-B", "win-win", "front-end", "web-based", "pervasive", "smart", "six-sigma", "critical-path", "dynamic"};
+    private String[] wordList2 = {"empowered", "sticky", "value-added", "oriented", "centric", "distributed", "clustered", "branded", "outside-the-box", "positive", "networked", "focused", "below the line", "leveraged", "aligned", "targeted", "shared", "cooperative", "accelerated"};
+    private String[] wordList3 = {"process", "tipping-point", "solution", "architecture", "core competency", "strategy", "mind-share", "portal", "space", "vision", "paradigm", "mission"};
 
     private int oneLength = wordList1.length;
     private int twoLength = wordList2.length;
@@ -58,3 +58,4 @@ public class MainActivity extends AppCompatActivity {
         ourButton.setOnClickListener(ourOnClickListener);
     }
 }
+
